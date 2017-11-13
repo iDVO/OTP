@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.kharkov.kpi.ttvtp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:configChanges="locale|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="ua.kharkov.kpi.ttvtp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.KIT12"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.KIT22a"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.KIT22b"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.KIT32"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.Semenov"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.Chernih"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.Megerickiy"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.Rysovanniy"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.KIT12_2"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity
+            android:name="ua.kharkov.kpi.ttvtp.Settings"
+            android:parentActivityName="ua.kharkov.kpi.ttvtp.MainActivity" />
+        <activity android:name="ua.kharkov.kpi.ttvtp.About" />
+    </application>
+
+</manifest>

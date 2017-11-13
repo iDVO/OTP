@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    >
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Texx04"
+            android:text="Feb 7"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:text="Feb 8"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:text="Feb 9"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Texx01"
+            android:text="Feb 10"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx1"
+            android:text="Feb 11"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/texx2"
+            android:text="Day High"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx3"
+            android:gravity="center_horizontal"
+            android:text="28°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx4"
+            android:gravity="center_horizontal"
+            android:text="26°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx5"
+            android:gravity="center_horizontal"
+            android:text="23°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx6"
+            android:gravity="center_horizontal"
+            android:text="17°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/texx7"
+            android:gravity="center_horizontal"
+            android:text="19°F" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tex2"
+            android:text="Day Low"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex3"
+            android:gravity="center_horizontal"
+            android:text="15°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex4"
+            android:gravity="center_horizontal"
+            android:text="14°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex5"
+            android:gravity="center_horizontal"
+            android:text="3°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex6"
+            android:gravity="center_horizontal"
+            android:text="5°F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex7"
+            android:gravity="center_horizontal"
+            android:text="6°F" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:text="Conditions"
+            android:textStyle="bold" >
+        </TextView>
+
+
+    </TableRow>
+
+</TableLayout>

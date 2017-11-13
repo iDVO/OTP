@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main1.xml",
+        "source": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\src\\main\\res\\menu\\main1.xml"
+    },
+    {
+        "merged": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activitymain.xml",
+        "source": "E:\\Cloud\\Android\\Development\\Projects\\ttVTP\\app\\src\\main\\res\\menu\\activitymain.xml"
+    }
+]

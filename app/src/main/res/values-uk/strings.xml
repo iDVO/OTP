@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name = "app_name" > Розклад </string>
+        <string name = "item1" > Перейти до другого тижня</string>
+        <string name = "item2" > Перейти до першого тижня</string>
+        <string name = "item3" > Про програму</string>
+    <string name = "item4" > Налаштування</string>
+        <string name = "time" > Час</string>
+        <string name = "type_par" > Тип пари</string>
+        <string name = "proj" > Предмет</string>
+        <string name = "auditor" > Аудиторія</string>
+        <string name = "prepod" > Викладач</string>
+        <string name = "student" > Студент</string>
+    <string name="btn_en">Англійська</string>
+    <string name="btn_ru">Російська</string>
+    <string name="btn_ua">Українська</string>
+    <string name="ch_teacher">Виберіть викладача</string>
+        <string-array name = "student_groups">
+            <item> </item>
+            <item> КІТ-12 </item>
+            <item> КІТ-22А </item>
+            <item> КІТ-22Б </item>
+            <item> КІТ-32 </item>
+        </string-array>
+        <string-array name = "teachers">
+    <item>Баленко Олексій Іванович</item>
+    <item>Гавриленко Світлана Юріївна</item>
+    <item>Гейко Геннадій Вікторович</item>
+    <item>Главчев Максим Ігорович</item>
+    <item>Гриб Ростислав Миронович</item>
+    <item>Гугнін Володимир Миколайович</item>
+    <item>Далека Валентина Дмитрівна</item>
+    <item>Даниленко Олександр Федорович</item>
+    <item>Дмитрієнко Валерій Дмитрович</item>
+    <item>Заковоротний Олександр Юрійович</item>
+    <item>Зиков Ігор Семенович</item>
+    <item>Калашников Володимир Іванович</item>
+    <item>Клименко Алла Миколаївна</item>
+    <item>Козина Ольга Андріївна</item>
+    <item>Леонов Сергій Юрійович</item>
+    <item>Липчанский Максим Валентинович</item>
+    <item>Лобода Євген Олександрович</item>
+    <item>Межерицький Сергій Геннадійович</item>
+    <item>Мезенцев Микола Вікторович</item>
+    <item>Молчанов Георгій Ігорович</item>
+    <item>Носков Валентин Іванович</item>
+    <item>Панченко Володимир Іванович</item>
+    <item>Пилипенко Оксана Валентинівна</item>
+    <item>Поворознюк Анатолій Іванович</item>
+    <item>Поворознюк Оксана Анатоліївна</item>
+    <item>Подорожняк Андрій Олексійович</item>
+    <item>Рисований Олександр Миколайович</item>
+    <item>Семенов Сергій Геннадійович</item>
+    <item>Скороделов Володимир Васильович</item>
+    <item>Філатова Анна Євгенівна</item>
+    <item>Філоненко Алевтина Михайлівна</item>
+    <item>Хавіна Інна Петрівна</item>
+    <item>Червоний Станіслав Йосипович</item>
+    <item>Черних Олена Петрівна</item>
+    <item>Шеїн Олександр Миколайович</item>
+        </string-array>
+</resources>

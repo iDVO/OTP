@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name = "app_name" > Schedule </string>
+        <string name = "item1" > Go to the second week</string>
+        <string name = "item2" > Go to the first week </string>
+        <string name = "item3" > About </string>
+    <string name = "item4" > Settings </string>
+        <string name = "time" > Time </string>
+        <string name = "type_par" > Type pair </string>
+        <string name = "proj" > Subject </string>
+        <string name = "auditor" > Audience </string>
+        <string name = "prepod" > Teacher </string>
+        <string name = "student" > Student </string>
+    <string name="btn_en">English</string>
+    <string name="btn_ru">Russian</string>
+    <string name="btn_ua">Ukrainian</string>
+    <string name="ch_teacher">Choose teacher</string>
+        <string-array name = "student_groups">
+            <item> </item>
+            <item> KIT-12 </item>
+            <item> KIT-22A </item>
+            <item> KIT-22B </item>
+            <item> KIT-32 </item>
+        </string-array>
+        <string-array name = "teachers">
+    <item>Alevtina Filonenko</item>
+    <item>Alexander Danilenko</item>
+    <item>Alexander Rysovany</item>
+    <item>Alexander Shein</item>
+    <item>Alexander Zakovorotny</item>
+    <item>Alexey Balenko</item>
+    <item>Alla Klimenko</item>
+    <item>Anatoly Povoroznyuk</item>
+    <item>Andrey Podorozhnyak</item>
+    <item>Anna Filatova</item>
+    <item>Evgeny Loboda</item>
+    <item>Gennady Geiko</item>
+    <item>George Molchanov</item>
+    <item>Helena Chernih</item>
+    <item>Igor Zykov</item>
+    <item>Inna Havin</item>
+    <item>Maxim Glavchev</item>
+    <item>Maxim Lipchansky</item>
+    <item>Nicolai Mezentsev</item>
+    <item>Oksana Povoroznyuk</item>
+    <item>Oksana Pylypenko</item>
+    <item>Olga Kozina</item>
+    <item>Rostislav Gryb</item>
+    <item>Sergey Leonov</item>
+    <item>Sergey Mezherytskyi</item>
+    <item>Sergey Semenov</item>
+    <item>Stanislav Chervonny</item>
+    <item>Svetlana Gavrilenko</item>
+    <item>Valentin Noskov</item>
+    <item>Valentina Daleka</item>
+    <item>Valery Dmitrienko</item>
+    <item>Vladimir Gugnin</item>
+    <item>Vladimir Kalashnikov</item>
+    <item>Vladimir Panchenko</item>
+    <item>Vladimir Skorodelov</item>
+        </string-array>
+</resources>

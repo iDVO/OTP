@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Расписание</string>
+    <string name="item1">Перейти ко второй неделе</string>
+    <string name="item2">Перейти к первой неделе</string>
+    <string name="item3">О программе</string>
+    <string name="item4">Настройки</string>
+    <string name="time">Время</string>
+    <string name="type_par">Тип пары</string>
+    <string name="proj">Предмет</string>
+    <string name="auditor">Аудитория</string>
+    <string name="prepod">Преподаватель</string>
+    <string name="student">Студент</string>
+    <string name="btn_en">Английский</string>
+    <string name="btn_ru">Русский</string>
+    <string name="btn_ua">Украинский</string>
+    <string name="ch_teacher">Выберите преподавателя</string>
+    <string-array name="student_groups">
+        <item> </item>
+        <item>КИТ-12</item>
+        <item>КИТ-22А</item>
+        <item>КИТ-22Б</item>
+        <item>КИТ-32</item>
+    </string-array>
+    <string-array name="teachers">
+        <item>Баленко Алексей Иванович</item>
+        <item>Гавриленко Светлана Юрьевна</item>
+        <item>Гейко Геннадий Викторович</item>
+        <item>Главчев Максим Игоревич</item>
+        <item>Грыб Ростислав Миронович</item>
+        <item>Гугнин Владимир Николаевич</item>
+        <item>Далека Валентина Дмитриевна</item>
+        <item>Дмитриенко Валерий Дмитриевич</item>
+        <item>Даниленко Александр Федорович</item>
+        <item>Заковоротный Александр Юрьевич</item>
+        <item>Зыков Игорь Семенович</item>
+        <item>Калашников Владимир Иванович</item>
+        <item>Клименко Алла Николаевна</item>
+        <item>Козина Ольга Андреевна</item>
+        <item>Леонов Сергей Юрьевич</item>
+        <item>Липчанский Максим Валентинович</item>
+        <item>Лобода Евгений Александрович</item>
+        <item>Межерицкий Сергей Геннадьевич</item>
+        <item>Мезенцев Николай Викторович</item>
+        <item>Молчанов Георгий Игоревич</item>
+        <item>Носков Валентин Иванович</item>
+        <item>Панченко Владимир Иванович</item>
+        <item>Пилипенко Оксана Валентиновна</item>
+        <item>Поворознюк Анатолий Иванович</item>
+        <item>Поворознюк Оксана Анатольевна</item>
+        <item>Подорожняк Андрей Алексеевич</item>
+        <item>Рысованый Александр Николаевич</item>
+        <item>Семенов Сергей Геннадьевич</item>
+        <item>Скороделов Владимир Васильевич</item>
+        <item>Филатова Анна Евгеньевна</item>
+        <item>Филоненко Алевтина Михайловна</item>
+        <item>Хавина Инна Петровна</item>
+        <item>Червонный Станислав Иосифович</item>
+        <item>Черных Елена Петровна</item>
+        <item>Шеин Александр Николаевич</item>
+    </string-array>
+</resources>

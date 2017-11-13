@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.kharkov.kpi.ttvtp.KIT12_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/monday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+<!--ПОНЕДЕЛЬНИК-->
+                <!--начало таблицы-->
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shrinkColumns="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:stretchColumns="*"
+                    android:id="@+id/tl12">
+
+                    <!--Шапка таблицы-->
+                    <TableRow>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#7fc342"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/time" />
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#7fc342"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/type_par"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#7fc342"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/proj"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#7fc342"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/auditor"/>
+                        <!--Конец шапки таблицы-->
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/time1"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/type1"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/name1"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+
+                        <TextView
+                            android:id="@+id/audit1"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp" />
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/time2"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/type2"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/name2"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/audit2"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/time3"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/type3"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/name3"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/audit3"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/time4"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/type4"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/name4"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:id="@+id/audit4"
+                            android:textColor="#36a300"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="2dp"/>
+                    </TableRow>
+                </TableLayout>
+<!--Конец таблицы-->
+            </LinearLayout>
+
+<!--КОНЕЦ ПОНЕДЕЛЬНИКА-->
+
+<!--ВТОРНИК-->
+
+            <LinearLayout
+                android:id="@+id/tuesday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--начало таблицы-->
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="2"
+                    android:id="@+id/tt12">
+
+                    <!--Шапка таблицы-->
+                    <TableRow>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#1f64ed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/time" />
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#1f64ed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/type_par"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#1f64ed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/proj"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#1f64ed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/auditor"/>
+                        <!--Конец шапки таблицы-->
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ttime1"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ttype1"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/tname1"
+                            android:textColor="#1f64ed"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/taudit1"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal"
+                            />
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ttime2"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:id="@+id/ttype2"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/tname2"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/taudit2"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ttime3"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ttype3"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/tname3"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/taudit3"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ttime4"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ttype4"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/tname4"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/taudit4"
+                            android:layout_margin="2dip"
+                            android:textColor="#1f64ed"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+<!--КОНЕЦ ВТОРНИКА-->
+
+
+ <!--СРЕДА-->
+            <LinearLayout
+                android:id="@+id/wednesday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--начало таблицы-->
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="2"
+                    android:id="@+id/wtt12">
+
+                    <!--Шапка таблицы-->
+                    <TableRow>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#d61dc6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/time" />
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#d61dc6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/type_par"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#d61dc6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/proj"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#d61dc6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/auditor"/>
+                        <!--Конец шапки таблицы-->
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/wttime1"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wttype1"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtname1"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/wtaudit1"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal"
+                            />
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/wttime2"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:id="@+id/wttype2"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtname2"
+                            android:textColor="#d61dc6"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtaudit2"
+                            android:layout_margin="2dip"
+                              android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/wttime3"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wttype3"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtname3"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtaudit3"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/wttime4"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wttype4"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtname4"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/wtaudit4"
+                            android:layout_margin="2dip"
+                            android:textColor="#d61dc6"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+<!--КОНЕЦ СРЕДЫ-->
+
+
+<!--ЧЕТВЕРГ-->
+            <LinearLayout
+                android:id="@+id/thursday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--начало таблицы-->
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="2"
+                    android:id="@+id/twtt12">
+
+                    <!--Шапка таблицы-->
+                    <TableRow>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#fee78113"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/time" />
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#fee78113"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/type_par"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#fee78113"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/proj"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#fee78113"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/auditor"/>
+                        <!--Конец шапки таблицы-->
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/twttime1"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twttype1"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtname1"
+                            android:textColor="#fee78113"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/twtaudit1"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal"
+                            />
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/twttime2"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:id="@+id/twttype2"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtname2"
+                            android:textColor="#fee78113"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtaudit2"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/twttime3"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twttype3"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtname3"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtaudit3"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/twttime4"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twttype4"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtname4"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/twtaudit4"
+                            android:layout_margin="2dip"
+                            android:textColor="#fee78113"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+<!--КОНЕЦ ЧЕТВЕРГА-->
+
+<!--ПЯТНИЦА-->
+            <LinearLayout
+                android:id="@+id/friday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!--начало таблицы-->
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="2"
+                    android:id="@+id/ftwtt12">
+
+                    <!--Шапка таблицы-->
+                    <TableRow>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#dc1637"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/time" />
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#dc1637"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/type_par"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#dc1637"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/proj"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:background="#dc1637"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_span="1"
+                            android:text="@string/auditor"/>
+                        <!--Конец шапки таблицы-->
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ftwttime1"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwttype1"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtname1"
+                            android:textColor="#dc1637"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/ftwtaudit1"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal"
+                            />
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ftwttime2"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:id="@+id/ftwttype2"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtname2"
+                            android:textColor="#dc1637"
+                            android:layout_margin="2dip"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtaudit2"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ftwttime3"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwttype3"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtname3"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtaudit3"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/ftwttime4"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwttype4"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtname4"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                        <TextView
+                            android:id="@+id/ftwtaudit4"
+                            android:layout_margin="2dip"
+                            android:textColor="#dc1637"
+                            android:gravity="center_horizontal" />
+                    </TableRow>
+                </TableLayout>
+                </LinearLayout>
+ <!--КОНЕЦ ПЯТНИЦЫ-->
+
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
+

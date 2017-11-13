@@ -1,0 +1,2 @@
+CHANGED,E:\Cloud\Android\Development\Projects\ttVTP\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\ua\kharkov\kpi\ttvtp\MainActivity$2$override.class
+CHANGED,E:\Cloud\Android\Development\Projects\ttVTP\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
